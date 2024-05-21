@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.degsin {
+
+    text-align: center;
+    background-image: url('https://i.pinimg.com/originals/0e/8b/7f/0e8b7f7b44724f97c006141091130609.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 400px;
+    border: none;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 40px;
+}
+
+#inp {
+    font-family: cursive;
+    height: 40px;
+    width: 300px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid green;
+    border-radius: 20px;
+    padding-left: 20px;
+
+}
+
+.a123 {
+    font-family: cursive;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: green;
+    font-size: large;
+
+}
+
+.b123 {
+    font-family: cursive;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: red;
+    font-size: large;
+}
+
+.a123:hover {
+    background-color: green;
+    color: white;
+}
+
+.b123:hover {
+    background-color: red;
+
+    color: whitesmoke;
+}
+
+li {
+    font-family: cursive;
+    list-style: none;
+    font-size: large;
+    /* background: linear-gradient(aqua, rgb(158, 13, 37), rgb(168, 209, 5)); */
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    padding-top: 5px;
+
+}
+
+button {
+    font-family: cursive;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    color: green;
+    
+}
